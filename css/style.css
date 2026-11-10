@@ -1,0 +1,23 @@
+:root{--ink:#14213D;--paper:#F7F8FA;--seal:#1B7F5C;--amber:#B7791F;--bad:#B42318;--line:#DDE2EA}
+body{font-family:'IBM Plex Sans',system-ui,sans-serif;background:var(--paper);color:#222}
+h1,h2,h3,h4,h5{color:var(--ink);font-weight:600}
+.navbar{background:var(--ink)}
+.navbar .navbar-brand,.navbar .nav-link{color:#fff}
+.navbar .nav-link:hover,.navbar .nav-link.active{color:#9FE3C6}
+.btn-seal{background:var(--seal);border-color:var(--seal);color:#fff}
+.btn-seal:hover{background:#15694B;border-color:#15694B;color:#fff}
+.hero{background:var(--ink);color:#fff;padding:72px 0}
+.hero h1{color:#fff;font-size:2.6rem;max-width:620px}
+.hero p{color:#C9D3E6;max-width:560px}
+.stamp{border:3px solid var(--seal);color:var(--seal);border-radius:12px;padding:20px 24px;background:#fff;max-width:340px;transform:rotate(-2deg)}
+.stamp .big{font-size:1.6rem;font-weight:700}
+.stamp code{font-size:.75rem;color:#555;word-break:break-all}
+.panel{background:#fff;border:1px solid var(--line);border-radius:8px;padding:24px}
+.step{border-left:4px solid var(--seal);padding-left:14px}
+.auth-wrap{max-width:460px;margin:48px auto}
+.side{background:#fff;border-right:1px solid var(--line);min-height:calc(100vh - 56px)}
+.side .nav-link{color:var(--ink);border-radius:6px}
+.side .nav-link.active,.side .nav-link:hover{background:#E8F4EE;color:var(--seal)}
+.stat{background:#fff;border:1px solid var(--line);border-radius:8px;padding:18px}
+.stat .n{font-size:1.9rem;font-weight:700;color:var(--ink)}
+footer{color:#667;font-size:.85rem;padding:24px 0}
